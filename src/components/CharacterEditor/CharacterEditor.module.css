@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
@@ -25,21 +26,16 @@
 }
 
 .characterWrapper {
-  width: 45%;
-  overflow: hidden;
   min-height: 500px;
   position: fixed;
-  /* left: 0; */
+  left: 60%;
   right: -60px;
-  margin: auto;
   top: 128px;
-  bottom: 0;
+  bottom: 64px;
 }
 
 .controlColumn {
   max-width: 50%;
-  isolation: isolate;
-
 }
 
 .perspectiveDecoration {
